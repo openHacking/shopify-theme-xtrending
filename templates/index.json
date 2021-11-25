@@ -21,17 +21,17 @@
             "button_style_secondary_2": false
           }
         },
-        "b07bee81-0d29-4ad3-8158-557a3356b3d9": {
+        "text": {
           "type": "text",
           "settings": {
-            "text": "Offer vaild till 29 Now"
+            "text": "Offer vaild till 30 Now"
           }
         }
       },
       "block_order": [
         "heading",
         "button",
-        "b07bee81-0d29-4ad3-8158-557a3356b3d9"
+        "text"
       ],
       "settings": {
         "image_height": "medium",

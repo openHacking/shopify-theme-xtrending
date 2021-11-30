@@ -813,7 +813,7 @@
         }
       }
     },
-    "image-banner": {
+    "image-banner-top": {
       "name": "Image banner",
       "settings": {
         "image": {

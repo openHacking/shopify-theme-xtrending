@@ -691,7 +691,7 @@
         }
       }
     },
-    "image-banner": {
+    "image-banner-top": {
       "name": "Bannière avec image",
       "settings": {
         "image": {

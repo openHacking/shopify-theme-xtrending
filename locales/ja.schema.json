@@ -691,7 +691,7 @@
         }
       }
     },
-    "image-banner": {
+    "image-banner-top": {
       "name": "画像バナー",
       "settings": {
         "image": {

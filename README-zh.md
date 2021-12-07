@@ -16,7 +16,6 @@ shopify theme xtrending pc端和移动端首页展示
 ```sh
 git clone https://github.com/openHacking/shopify-theme-xtrending.git
 cd shopify-theme-xtrending
-git checkout release
 ```
 2. 根据[这些步骤](https://shopify.dev/themes/tools/cli/installation)安装 [Shopify CLI](https://github.com/Shopify/shopify-cli).
 3. 启动开发服务器

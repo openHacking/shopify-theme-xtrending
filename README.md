@@ -15,7 +15,6 @@ shopify theme xtrending pc and mobile
 ```sh
 git clone https://github.com/openHacking/shopify-theme-xtrending.git
 cd shopify-theme-xtrending
-git checkout release
 ```
 2. Install the [Shopify CLI](https://github.com/Shopify/shopify-cli) by following [these steps](https://shopify.dev/themes/tools/cli/installation).
 3. Launch a development server in the `shopify-theme-xtrending/` folder:

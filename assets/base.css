@@ -1,5 +1,41 @@
 /* Color custom properties */
 
+/* Primary color 89B5AF */
+/* Second primary color 96C7C1 */
+/* Light auxiliary color DED9C4 */
+/* Deep auxiliary color D0CAB2 */
+:root {
+  --font-body-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  --font-body-style: normal;
+  --font-body-weight: 400;
+
+  --font-heading-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  --font-heading-style: normal;
+  --font-heading-weight: 400;
+
+  --font-body-scale: 1.0;
+  --font-heading-scale: 1.0;
+
+  --color-base-text: 0, 8, 28;
+  --color-base-background-1: 255, 255, 244;
+  --color-base-background-2: 243, 243, 243;
+  --color-base-solid-button-labels: 33, 33, 33;
+  --color-base-outline-button-labels: 0, 8, 28;
+  --color-base-accent-1: 200,92,92;
+  /* --color-base-accent-1: 33, 115, 70; */
+  --color-base-accent-2: 249, 151, 93;
+  /* --color-base-accent-2: 51, 79, 180; */
+  --payment-terms-background-color: #FFFFFF;
+
+  --gradient-base-background-1: #FFFFFF;
+  --gradient-base-background-2: #F3F3F3;
+  --gradient-base-accent-1: #217346;
+  --gradient-base-accent-2: #334FB4;
+
+  --page-width: 160rem;
+  --page-width-margin: 2rem;
+}
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -1180,10 +1216,12 @@ deferred-media {
   align-items: center;
   box-sizing: border-box;
   font: inherit;
-  padding: 0.9rem 3rem 1.1rem;
+  /* padding: 0.9rem 3rem 1.1rem; */
+  padding: .6rem 6rem;
   text-decoration: none;
   border: 0.1rem solid transparent;
-  border-radius: 0;
+  /* border-radius: 0; */
+  border-radius: 2px;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
   box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border));
   color: rgb(var(--color-button-text));
@@ -1242,6 +1280,8 @@ deferred-media {
 .shopify-challenge__button:hover,
 .customer button:hover {
   box-shadow: 0 0 0 0.2rem rgba(var(--color-button), var(--alpha-button-border));
+  background-color: rgba(var(--color-button), var(--alpha-button-border));
+  color: #FFFFFF;
 }
 
 /* Button - other */

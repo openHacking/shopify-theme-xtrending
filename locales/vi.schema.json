@@ -691,7 +691,7 @@
         }
       }
     },
-    "image-banner": {
+    "image-banner-top": {
       "name": "Biểu ngữ hình ảnh",
       "settings": {
         "image": {

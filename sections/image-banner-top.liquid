@@ -53,7 +53,9 @@
     </div>
   {%- elsif section.settings.image_2 == blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
-      {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% comment %} replace placeholder-svg  as custom image {% endcomment %}
+      {% comment %} {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }} {% endcomment %}
+      <img src='https://dogefs.s3.ladydaily.com/~/source/unsplash/photo-1633113214866-961efd94c84d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' />
     </div>
   {%- endif -%}
   {%- if section.settings.image_2 != blank -%}

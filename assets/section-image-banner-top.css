@@ -165,13 +165,18 @@
   position: relative;
   width: 100%;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  /* change position */
+  justify-content: flex-start;
+  margin-left: 8rem;
   z-index: 2;
 }
 
 @media screen and (max-width: 749px) {
   .banner--mobile-bottom:not(.banner--stacked) .banner__content {
     order: 2;
+    /* No offset required on mobile */
+    margin-left: 0;
   }
 }
 
